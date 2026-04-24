@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>My Homepage</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd966;
+        }
+
+        section {
+            background-color: white;
+            margin: 30px auto;
+            padding: 30px;
+            width: 80%;
+            border-radius: 15px;
+            box-shadow: 0 0 10px lightgray;
+        }
+
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="main">
+        <h1>백수연의 홈페이지</h1>
+        <p>HTML을 활용하여 만든 개인 홈페이지입니다.</p>
+    </header>
+
+    <nav>
+        <a href="#main">Main</a>
+        <a href="#profile">Profile</a>
+        <a href="#hobby">Hobby</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="profile">
+        <h2>Profile</h2>
+        <p>이름: 백수연</p>
+        <p>전공: 디자인학과</p>
+        <p>소개: 디지털 드로잉을 주로 하고 있으며, 수채화, 펜화 등 다양한 그림 기법에 관심이 있습니다.</p>
+
+        <!-- 프로필 사진 넣고 싶으면 images 폴더에 profile.jpg 넣기 -->
+        <!-- <img src="images/profile.jpg" alt="프로필 사진"> -->
+    </section>
+
+    <section id="hobby">
+        <h2>Hobby</h2>
+        <p>저의 취미는 음악 듣기, 밤산책하기, 그림그리기입니다.</p>
+        <p>특히 프로크리에이트에서 다양한 브러쉬를 이용해 그림을 그려보는 것을 즐깁니다.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>지금까지 HTML을 활용하여 간단한 홈페이지를 제작해 보았습니다.</p>
+        <p>이 홈페이지는 index.html에서 main.html로 연결되며, main.html 안에는 Main, Profile, Hobby, Portfolio, Contact 메뉴가 있습니다.</p>
+
+        <h3>나의 작업물</h3>
+        <ul>
+            <li>HTML 기본 구조 활용</li>
+            <li>메뉴 링크 만들기</li>
+            <li>이미지 삽입 연습</li>
+            <li>마우스 이벤트 적용</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>민감한 개인정보는 입력하지 않고, 간단한 연락 안내만 작성하였습니다.</p>
+        <p>Email: bsy060303@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>Designed by 백수연</p>
+    </footer>
+
+</body>
+</html>
